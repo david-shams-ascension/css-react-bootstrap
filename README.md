@@ -1,8 +1,25 @@
 # React Bootstrap
 
+[React-Bootstrap](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/) is a complete re-implementation of the Bootstrap components using React. It has no dependency on either bootstrap.js or jQuery. If you have React setup and React-Bootstrap installed, you have everything you need.
+
 `npm install react-bootstrap bootstrap`
 React-Bootstrap doesn't depend on a very precise version of Bootstrap, we don't ship with any included css. However, some stylesheet is required to use these components.
 How and which Bootstrap styles you include is up to you, but the simplest way is to include the latest styles from the CDN. A little more information about the benefits of using a CDN can be found here.
+
+React-Bootstrap is compatible with existing Bootstrap themes. Just follow the installation instructions for your theme of choice.
+
+Because React-Bootstrap completely reimplements Bootstrap's JavaScript, it's not automatically compatible with themes that extend the default JavaScript behaviors.
+
+`create-react-app` custom themes
+If you would like to add a custom theme on your app using Create React App, they have [additional documentation](https://create-react-app.dev/docs/adding-bootstrap#using-a-custom-theme) for Create React App and Bootstrap here
+As of `react-scripts@2.0.0` you can import .scss files. This makes it possible to use a package's built-in Sass variables for global style preferences.
+
+## Benifits of React Bootstrap
+
+Methods and events using jQuery is done imperatively by directly manipulating the DOM. In contrast, React uses updates to the state to update the virtual DOM. In this way, React-Bootstrap provides a more reliable solution by incorporating Bootstrap functionality into React's virtual DOM. [See examples](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/) of how React-Bootstrap components differ from Bootstrap.
+
+
+
 
 ## Customizing bootstrap to match components
 see the [Bootstrap docs](https://getbootstrap.com/docs/4.3/getting-started/theming/) for details about customizing stylesheets to match your component use.
