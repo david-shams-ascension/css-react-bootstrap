@@ -18,6 +18,10 @@ As of `react-scripts@2.0.0` you can import .scss files. This makes it possible t
 
 Methods and events using jQuery is done imperatively by directly manipulating the DOM. In contrast, React uses updates to the state to update the virtual DOM. In this way, React-Bootstrap provides a more reliable solution by incorporating Bootstrap functionality into React's virtual DOM. [See examples](https://react-bootstrap.github.io/getting-started/why-react-bootstrap/) of how React-Bootstrap components differ from Bootstrap.
 
+### State
+
+Since React-Bootstrap is built with React Javascript, state can be passed within React-Bootstrap components as a prop. It also makes it easier to manage the state as updates are made using React’s state instead of directly manipulating the state of the DOM. This also gives a lot of flexibility when creating more complex components.
+
 
 
 
