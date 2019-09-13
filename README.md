@@ -2,6 +2,15 @@
 
 `npm install react-bootstrap bootstrap`
 React-Bootstrap doesn't depend on a very precise version of Bootstrap, we don't ship with any included css. However, some stylesheet is required to use these components.
+How and which Bootstrap styles you include is up to you, but the simplest way is to include the latest styles from the CDN. A little more information about the benefits of using a CDN can be found here.
+
+## Customizing bootstrap to match components
+see the [Bootstrap docs](https://getbootstrap.com/docs/4.3/getting-started/theming/) for details about customizing stylesheets to match your component use.
+
+
+## Important React Bootstrap Components
+You should import individual components like: react-bootstrap/Button rather than the entire library. Doing so pulls in only the specific components that you use, which can significantly reduce the amount of code you end up sending to the client. [https://react-bootstrap.github.io/getting-started/introduction](https://react-bootstrap.github.io/getting-started/introduction)
+
 
 
 
