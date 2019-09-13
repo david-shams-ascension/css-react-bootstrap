@@ -12,6 +12,7 @@ export default function AlertClosable() {
                 <Button onClick={() => setShow(false)} >Hide/Show</Button>
                 </div>
             </Alert>
+            {!show && <Button onClick={ () => setShow(true)}>Show Alert</Button>}
         </>
     )
 }
