@@ -1,3 +1,10 @@
+# React Bootstrap
+
+`npm install react-bootstrap bootstrap`
+React-Bootstrap doesn't depend on a very precise version of Bootstrap, we don't ship with any included css. However, some stylesheet is required to use these components.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
